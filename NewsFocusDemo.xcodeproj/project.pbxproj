@@ -15,6 +15,14 @@
 		E829255F1ADCB1B600FF7275 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E829255E1ADCB1B600FF7275 /* Images.xcassets */; };
 		E82925621ADCB1B600FF7275 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E82925601ADCB1B600FF7275 /* LaunchScreen.xib */; };
 		E829256E1ADCB1B700FF7275 /* NewsFocusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E829256D1ADCB1B700FF7275 /* NewsFocusDemoTests.m */; };
+		E82925921ADCBD0000FF7275 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = E82925881ADCBD0000FF7275 /* image0.png */; };
+		E82925931ADCBD0000FF7275 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = E82925891ADCBD0000FF7275 /* image1.png */; };
+		E82925941ADCBD0000FF7275 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = E829258A1ADCBD0000FF7275 /* image2.png */; };
+		E82925951ADCBD0000FF7275 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = E829258B1ADCBD0000FF7275 /* image3.png */; };
+		E829259D1ADCFDE300FF7275 /* NewsFocusDataPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82925991ADCFDE300FF7275 /* NewsFocusDataPlist.plist */; };
+		E829259E1ADCFDE300FF7275 /* NewsFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = E829259B1ADCFDE300FF7275 /* NewsFocusView.m */; };
+		E8D4C17F1ADF3B58001EA8A4 /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D4C17D1ADF3B58001EA8A4 /* NewsViewController.m */; };
+		E8D4C1801ADF3B58001EA8A4 /* NewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D4C17E1ADF3B58001EA8A4 /* NewsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +50,16 @@
 		E82925671ADCB1B600FF7275 /* NewsFocusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsFocusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E829256C1ADCB1B700FF7275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E829256D1ADCB1B700FF7275 /* NewsFocusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsFocusDemoTests.m; sourceTree = "<group>"; };
+		E82925881ADCBD0000FF7275 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image0.png; sourceTree = "<group>"; };
+		E82925891ADCBD0000FF7275 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		E829258A1ADCBD0000FF7275 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		E829258B1ADCBD0000FF7275 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		E82925991ADCFDE300FF7275 /* NewsFocusDataPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsFocusDataPlist.plist; sourceTree = "<group>"; };
+		E829259A1ADCFDE300FF7275 /* NewsFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFocusView.h; sourceTree = "<group>"; };
+		E829259B1ADCFDE300FF7275 /* NewsFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFocusView.m; sourceTree = "<group>"; };
+		E8D4C17C1ADF3B58001EA8A4 /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		E8D4C17D1ADF3B58001EA8A4 /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		E8D4C17E1ADF3B58001EA8A4 /* NewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +105,15 @@
 				E82925531ADCB1B600FF7275 /* AppDelegate.m */,
 				E82925581ADCB1B600FF7275 /* ViewController.h */,
 				E82925591ADCB1B600FF7275 /* ViewController.m */,
+				E8D4C17C1ADF3B58001EA8A4 /* NewsViewController.h */,
+				E8D4C17D1ADF3B58001EA8A4 /* NewsViewController.m */,
+				E8D4C17E1ADF3B58001EA8A4 /* NewsViewController.xib */,
 				E829255B1ADCB1B600FF7275 /* Main.storyboard */,
 				E829255E1ADCB1B600FF7275 /* Images.xcassets */,
 				E82925601ADCB1B600FF7275 /* LaunchScreen.xib */,
 				E82925551ADCB1B600FF7275 /* NewsFocusDemo.xcdatamodeld */,
+				E82925961ADCFDE300FF7275 /* NewsFocus */,
+				E82925801ADCBD0000FF7275 /* Resources */,
 				E829254E1ADCB1B600FF7275 /* Supporting Files */,
 			);
 			path = NewsFocusDemo;
@@ -121,6 +144,35 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		E82925801ADCBD0000FF7275 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E82925811ADCBD0000FF7275 /* Images */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		E82925811ADCBD0000FF7275 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E82925881ADCBD0000FF7275 /* image0.png */,
+				E82925891ADCBD0000FF7275 /* image1.png */,
+				E829258A1ADCBD0000FF7275 /* image2.png */,
+				E829258B1ADCBD0000FF7275 /* image3.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E82925961ADCFDE300FF7275 /* NewsFocus */ = {
+			isa = PBXGroup;
+			children = (
+				E82925991ADCFDE300FF7275 /* NewsFocusDataPlist.plist */,
+				E829259A1ADCFDE300FF7275 /* NewsFocusView.h */,
+				E829259B1ADCFDE300FF7275 /* NewsFocusView.m */,
+			);
+			path = NewsFocus;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -202,9 +254,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D4C1801ADF3B58001EA8A4 /* NewsViewController.xib in Resources */,
 				E829255D1ADCB1B600FF7275 /* Main.storyboard in Resources */,
+				E82925941ADCBD0000FF7275 /* image2.png in Resources */,
 				E82925621ADCB1B600FF7275 /* LaunchScreen.xib in Resources */,
+				E82925951ADCBD0000FF7275 /* image3.png in Resources */,
 				E829255F1ADCB1B600FF7275 /* Images.xcassets in Resources */,
+				E82925931ADCBD0000FF7275 /* image1.png in Resources */,
+				E829259D1ADCFDE300FF7275 /* NewsFocusDataPlist.plist in Resources */,
+				E82925921ADCBD0000FF7275 /* image0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +282,10 @@
 			files = (
 				E82925541ADCB1B600FF7275 /* AppDelegate.m in Sources */,
 				E82925511ADCB1B600FF7275 /* main.m in Sources */,
+				E829259E1ADCFDE300FF7275 /* NewsFocusView.m in Sources */,
 				E829255A1ADCB1B600FF7275 /* ViewController.m in Sources */,
 				E82925571ADCB1B600FF7275 /* NewsFocusDemo.xcdatamodeld in Sources */,
+				E8D4C17F1ADF3B58001EA8A4 /* NewsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +478,7 @@
 				E82925731ADCB1B700FF7275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E82925741ADCB1B700FF7275 /* Build configuration list for PBXNativeTarget "NewsFocusDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +487,7 @@
 				E82925761ADCB1B700FF7275 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

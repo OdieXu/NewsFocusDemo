@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NewsViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UIViewController *testViewController = [[NewsViewController alloc] initWithNibName:@"NewsViewController" bundle:nil];
+    self.window.rootViewController = testViewController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
